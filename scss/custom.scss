@@ -1,0 +1,11 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)如果有任何變數覆寫要寫在引用的上面
+$primary: rgb(209, 231, 224);
+$body-secondary-bg: rgba($primary, 0.75);
+
+//npm 專案管理 node package manager
+@import "../bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
